@@ -10,5 +10,4 @@ import JobListings from '@/components/JobListings.vue';
   <Hero />
   <HomeCards />
   <JobListings />
-  
 </template>
