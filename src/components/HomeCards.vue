@@ -1,5 +1,5 @@
 <script setup>
-    import Card from './Card.vue';
+    import Card from '@/components/Card.vue';
 </script>
 
 <template>
@@ -19,7 +19,7 @@
               Browse Jobs
             </a>
         </Card>
-        <Card>
+        <Card bg="bg-green-100">
             <h2 class="text-2xl font-bold">For Employers</h2>
             <p class="mt-2 mb-4">
               List your job to find the perfect developer for the role
