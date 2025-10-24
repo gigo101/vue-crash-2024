@@ -1,5 +1,27 @@
 <script setup>
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
+import {reactive, onMounted} from 'vue';
+import { useRoute, RouterLink } from 'vue-router';
+import axios from 'axios';
 
+const route = useRoute();
+const jobId = route.params.id;
+
+const state = reactive({
+    job: {},
+    isLoading: true
+});
+
+onMounted(async ()=> {
+    try{
+        const response = await axios.get(`ttp://localhost:8000/jobs/${jobId}`);
+        state.job=response.data;
+    } catch (error){
+        console.error ('Error fetching job', error);
+    } finally{
+        state.isLoading = false;
+    }
+});
 </script>
 
 
