@@ -83,34 +83,6 @@
         "contactEmail": "df@gmail.com",
         "contactPhone": "fdfd"
       }
-    },
-    {
-      "id": "01b4",
-      "title": "fdfdf",
-      "type": "Full-Time",
-      "location": "dfdfdf",
-      "description": "fdfdf",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "fdfd",
-        "description": "fdfd",
-        "contactEmail": "dfdf@gmail.com",
-        "contactPhone": "fdfdf"
-      }
-    },
-    {
-      "id": "b1d1",
-      "title": "fdfdf",
-      "type": "Full-Time",
-      "location": "fdfdf",
-      "description": "fdfdfd",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "fdfd",
-        "description": "fdfd",
-        "contactEmail": "dfdfdfdf@gmail.com",
-        "contactPhone": "dfdfdfdfdf"
-      }
     }
   ]
 }
